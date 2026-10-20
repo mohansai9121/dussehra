@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Dussehra Insights App
+A bilingual React application designed to help users explore the spiritual significance, history, and daily traditions of the 10-day Dussehra (Navratri) festival.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
+Bilingual Support (Telugu & English): Easily toggle between English and Telugu content using quick language switch buttons.
 
-## Available Scripts
+Festival Significance: Clear, detailed explanations of why Dussehra (Vijayadashami) is celebrated, including the triumph of good over evil.
 
-In the project directory, you can run:
+Day-by-Day Goddess Details (Day 1 to Day 10): Interactive day selector displaying:
 
-### `npm start`
+Name and significance of the Goddess form worshiped each day (Alankaram/Avataram).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Specific prasadam (food offerings) associated with each day.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Recommended colourss and daily rituals.
 
-### `npm test`
+Responsive & Intuitive Interface: Clean layout optimized for both mobile devices and desktop screens.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+How to Use-
 
-### `npm run build`
+Switch Language:
+Click the English or తెలుగు button at the top of the page to view the entire content in your preferred language.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Learn About Dussehra:
+Read the main overview section to understand the history and spiritual importance of Vijayadashami.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Explore Daily Rituals:
+Click on any day tab (Day 1 to Day 10) to view specific details about that day's Goddess form, offerings, and traditions.

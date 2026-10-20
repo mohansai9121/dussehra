@@ -1,0 +1,137 @@
+.heading{
+    text-align: center;
+    cursor: pointer;
+    font-size: 44px;
+}
+.days-buttons{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2vw;
+    margin: 1vw 2vw;
+    align-items: center;
+    justify-content: center;
+}
+.days-button{
+    text-align: center;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+}
+.days-button-selected{
+    text-align: center;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: green;
+    color: antiquewhite;
+    border: 0px;
+}
+.days-button:hover{
+    scale: 1.1;
+}
+.line{
+    margin: 2vh 3vw;
+}
+.day-outer-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.day-inner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    box-sizing: border-box;
+}
+.day-inner-div p{
+    width: 28vw;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.day-image{
+    width: 30vw;
+    border-radius: 10px;
+}
+.day-image:hover, .day-image:focus{
+    box-shadow: 0px 0px 10px white;
+}
+.info{
+    margin: 2vh 4vw;
+    text-align: center;
+}
+.info p{
+    font-size: 22px;
+}
+.color-span{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .heading{
+    font-size: 32px;
+    margin-top: 5vh;
+}
+.days-buttons{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2vw;
+}
+.days-button{
+    height: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.days-button-selected{
+    height: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.day-outer-div h2{
+    font-size: 22px;
+}
+.day-inner-div{
+    flex-direction: column;
+    gap: 1vh;
+}
+.day-inner-div p{
+    width: 70vw;
+    font-size: 18px;
+    flex-direction: row;
+}
+.day-image{
+    width: 70vw;
+    transition: all 0.5s;
+}
+.day-image:hover, .day-image:focus{
+    box-shadow: 0px 0px 15px white;
+    scale: 1.05;
+}
+.info{
+    margin: 2vh 4vw;
+    text-align: center;
+}
+.info p{
+    font-size: 18px;
+}
+.info h2{
+    font-size: 20px;
+}
+.color-span{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+}

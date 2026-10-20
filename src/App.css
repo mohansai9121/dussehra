@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.lottie1 {
+  width: 70vw;
+  height: 70vh;
+  position: fixed;
+  left: 15vw;
+  top: 5vh;
+  z-index: -1;
+}
+.lottie2 {
+  width: 200vw;
+  height: 80vh;
+  position: fixed;
+  left: -50vw;
+  bottom: 2vh;
+  z-index: -1;
+  scale: 2.5;
+}
+.telugu-button {
+  position: relative;
+  top: 5vh;
+  left: 14vw;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+.telugu-button-selected {
+  position: relative;
+  top: 5vh;
+  left: 14vw;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: goldenrod;
+  color: antiquewhite;
+}
+.english-button {
+  position: absolute;
+  right: 14vw;
+  top: 5vh;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+.english-button-selected {
+  position: absolute;
+  right: 14vw;
+  top: 5vh;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: goldenrod;
+  color: antiquewhite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .lottie1 {
+    width: 120vw;
+    height: 150vh;
+    left: 0vw;
+    top: -20vh;
+    scale: 1.5;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .lottie2 {
+    width: 150vw;
+    height: 80vh;
+    left: -20vw;
+    bottom: 3vh;
+    scale: 1.5;
   }
-  to {
-    transform: rotate(360deg);
+  .telugu-button {
+    top: 4vh;
+    left: 8vw;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    border: 0px;
+  }
+  .telugu-button-selected {
+    top: 4vh;
+    left: 8vw;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    border: 0px;
+  }
+  .english-button {
+    right: 8vw;
+    top: 4vh;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    border: 0px;
+  }
+  .english-button-selected {
+    right: 8vw;
+    top: 4vh;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+    border: 0px;
   }
 }
