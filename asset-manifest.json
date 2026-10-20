@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/dussehra/static/css/main.9d2d7a26.css",
+    "main.js": "/dussehra/static/js/main.c189068f.js",
+    "static/js/453.ecdc67aa.chunk.js": "/dussehra/static/js/453.ecdc67aa.chunk.js",
+    "static/media/day9.png": "/dussehra/static/media/day9.ad872ba701e6a317f5a7.png",
+    "static/media/day4.png": "/dussehra/static/media/day4.70cadc0d41b9ff870175.png",
+    "static/media/day8.jpg": "/dussehra/static/media/day8.58f547944ada79b3ab43.jpg",
+    "static/media/day3.jpg": "/dussehra/static/media/day3.8e50a99b65aac1a45a9c.jpg",
+    "static/media/day5.jpg": "/dussehra/static/media/day5.3e081b7ff6a9967503e6.jpg",
+    "static/media/day10.jpg": "/dussehra/static/media/day10.93f670965b118c63c4bb.jpg",
+    "static/media/day1.jpg": "/dussehra/static/media/day1.b89c40e11382dc24c7f2.jpg",
+    "static/media/day2.jpg": "/dussehra/static/media/day2.402c879318cde427f37d.jpg",
+    "static/media/day7.jpg": "/dussehra/static/media/day7.9af7f432e5dfc0bba136.jpg",
+    "static/media/day6.jpg": "/dussehra/static/media/day6.5a392a19a6ad89edea96.jpg",
+    "index.html": "/dussehra/index.html",
+    "main.9d2d7a26.css.map": "/dussehra/static/css/main.9d2d7a26.css.map",
+    "main.c189068f.js.map": "/dussehra/static/js/main.c189068f.js.map",
+    "453.ecdc67aa.chunk.js.map": "/dussehra/static/js/453.ecdc67aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d2d7a26.css",
+    "static/js/main.c189068f.js"
+  ]
+}
